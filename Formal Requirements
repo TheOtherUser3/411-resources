@@ -1,0 +1,14 @@
+------FORMAL REQUIREMENTS-------
+GOAL: Enable users to hear delightful snickers correlating to the nature of the sync when syncing with GiggleGit.
+NON-GOAL: User ability to generate brand new snickers of their choosing.
+
+NON-FUNCTIONAL 1: Usability
+  FUNCTIONAL-REQUIREMENT 1: The snicker sounds will correlate to the status of the sync and how long the sync took. 
+    The program will keep track of the sync status and longer or failed syncs will play more cruel snickers, while quick and successful syncs will play kind or short snickers.
+  FUNCTIONAL-REQUIREMENT 2: The syncing process will include a visible progress bar to inform users of the sync's progress. Every 5–15 seconds, 
+    a short snicker will play to maintain user engagement and provide feedback during longer syncs.
+
+NON-FUNCTIONAL 2: Compatibility
+  FUNCTIONAL-REQUIREMENT 1: SnickerSync will be compatible with major operating systems such as Windows, macOS, and Linux.
+  FUNCTIONAL-REQUIREMENT 2: The SnickerSync feature will work seamlessly with both local and remote GiggleGit repositories to ensure that 
+    no matter where users are syncing from (local or remote), they get the snicker experience.
